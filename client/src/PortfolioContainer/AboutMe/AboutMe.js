@@ -62,7 +62,10 @@ export default function AboutMe(props) {
                 {" "}
                 Contact{" "}
               </button>
-              <a href="https://drive.google.com/file/d/1Ql0b305p395XRZPR3CA2wm6hQ58b5xlv/view?usp=sharing" target="_blank" >
+              <a
+                href="https://drive.google.com/file/d/1mRKUnI-MFTDsBftf6jKFl78Eahf_2d3G/view?usp=sharing"
+                target="_blank"
+              >
                 <button className="btn highlighted-btn">Get Resume</button>
               </a>
             </div>
