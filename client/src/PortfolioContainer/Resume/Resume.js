@@ -33,8 +33,20 @@ const Resume = (props) => {
           )}
         </div>
         <span className="projectBtns">
-          <span>{props.pUrl ? <a href={props.pUrl} target="_blank"><button className="projBtn1">Demo</button></a> : null}</span>
-          <span>{props.gUrl ? <a href={props.gUrl} target="_blank"><button className="projBtn2">Code</button></a> : null}</span>
+          <span>
+            {props.pUrl ? (
+              <a href={props.pUrl} target="_blank">
+                <button className="projBtn1">Demo</button>
+              </a>
+            ) : null}
+          </span>
+          <span>
+            {props.gUrl ? (
+              <a href={props.gUrl} target="_blank">
+                <button className="projBtn2">Code</button>
+              </a>
+            ) : null}
+          </span>
         </span>
         <div className="resume-sub-heading">
           <span>{props.subHeading ? props.subHeading : ""}</span>
@@ -58,7 +70,6 @@ const Resume = (props) => {
   const programmingSkillsDetails = [
     { skill: "JavaScript", ratingPercentage: 80 },
     { skill: "React JS", ratingPercentage: 65 },
-    { skill: "React Native", ratingPercentage: 75 },
     { skill: "Express JS", ratingPercentage: 80 },
     { skill: "Node JS", ratingPercentage: 80 },
     { skill: "Mongo Db", ratingPercentage: 85 },
@@ -72,10 +83,9 @@ const Resume = (props) => {
       duration: { fromDate: "2021", toDate: "2021" },
       description:
         "E-commerce market place for online groceries, home essentials.",
-      subHeading:
-        "Technologies Used:  Html, Css, JavaScript.",
+      subHeading: "Technologies Used:  Html, Css, JavaScript.",
       pUrl: "https://vaibhavkothiyal.github.io/jiomartClone.github.io/html/Index.html",
-      gUrl: "https://github.com/vaibhavkothiyal/jiomartClone.github.io"
+      gUrl: "https://github.com/vaibhavkothiyal/jiomartClone.github.io",
     },
     {
       title: "Clone of PluralSight",
@@ -85,17 +95,16 @@ const Resume = (props) => {
       subHeading:
         "Technologies Used: JavaScript, Html, Mongo DB, Epress Js, Node JS.",
       pUrl: "https://aadityaneve.github.io/Clone-Pluralsight/pages/index.html",
-      gUrl: "https://github.com/aadityaneve/Clone-Pluralsight/tree/vaibhav"
+      gUrl: "https://github.com/aadityaneve/Clone-Pluralsight/tree/vaibhav",
     },
     {
       title: "Todo App",
       duration: { fromDate: "2021", toDate: "2022" },
-      description:
-        "A Todo website developed using React, Redux",
+      description: "A Todo website developed using React, Redux",
       subHeading: "Technologies Used: React, Redux, Express",
       pUrl: "https://vk-todo.herokuapp.com/",
-      gUrl: "github"
-    }
+      gUrl: "github",
+    },
   ];
 
   const resumeDetails = [
@@ -129,16 +138,16 @@ const Resume = (props) => {
       />
 
       <ResumeHeading
-        heading={"MSc IT"}
-        subHeading={"HNB Garhwal University"}
-        fromDate={"2017"}
+        heading={"BE (MECHANICAL)"}
+        subHeading={"LNCTS COLLEGE BHOPAL"}
+        fromDate={"2015"}
         toDate={"2019"}
       />
       <ResumeHeading
-        heading={"BCA"}
-        subHeading={"HNB Garhwal University"}
+        heading={"12th"}
+        subHeading={"Saket School Vidisha"}
         fromDate={"2014"}
-        toDate={"2017"}
+        toDate={"2012"}
       />
     </div>,
 
