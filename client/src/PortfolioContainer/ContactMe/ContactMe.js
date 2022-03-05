@@ -72,10 +72,16 @@ export default function ContactMe(props) {
           <h2 className="title">
             <Typical loop={Infinity} steps={["Get In Touch 📧", 1000]} />
           </h2>{" "}
-          <a href="https://www.linkedin.com/in/vaibhavkothiyal/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/vaibhavkothiyal/"
+            target="_blank"
+          >
             <i className="fa fa-linkedin" />
           </a>
-          <a href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=vaibhavkkothiyal@gmail.com&tf=1" target="_blank">
+          <a
+            href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=vaibhavkkothiyal@gmail.com&tf=1"
+            target="_blank"
+          >
             <i className="fa fa-google-plus-square" />
           </a>
           <a href="https://github.com/vaibhavkothiyal" target="_blank">
@@ -93,7 +99,7 @@ export default function ContactMe(props) {
           <div className="img-back">
             <h4>Send Your Email Here!</h4>
             <img src={imgBack} alt="image not found" />
-            <div className="mobile_no">Contact No:- 94581 75229</div>
+            <div className="mobile_no">Contact No:- +91 73898821887</div>
           </div>
           <form onSubmit={submitForm}>
             <p>{banner}</p>

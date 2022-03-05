@@ -8,8 +8,9 @@ import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
 import "./Testimonial.css";
 import kamesh from "../../../src/img/Testimonial/kamesh.png";
-import arpit from "../../../src/img/Testimonial/arpit.png";
-import raj from "../../../src/img/Testimonial/raj.png";
+import bhanu from "../../../src/img/Testimonial/bhanu.png";
+import arpit from "../../../src/img/Testimonial/vaibhav.png";
+import raj from "../../../src/img/Testimonial/vinay.png";
 import shape from "../../../src/img/Testimonial/shape-bg.png";
 
 export default function Testimonial(props) {
@@ -62,7 +63,8 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      I have worked with Vaibhav in a construct week project and I found Vaibhav very dedicated and collaborative.
+                      I have worked with Arpit in a construct week project and I
+                      found Arpit very dedicated and collaborative.
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
@@ -96,7 +98,8 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      It was realy nice working with Vaibhav we worked on a project togeather and I can definitely endorse his skills
+                      It was realy nice working with Arpit we worked on a
+                      project togeather and I can definitely endorse his skills
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
@@ -119,7 +122,7 @@ export default function Testimonial(props) {
                   </div>
                   <div className="client-info">
                     <img src={arpit} alt="no internet connection"></img>
-                    <h5>Arpit Shrivastava</h5>
+                    <h5>Vaibhav Kothiyal</h5>
                     <p>Masai Trainee</p>
                   </div>
                 </div>
@@ -129,7 +132,8 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      I have worked with Vaibhav in a construct week project and I found Vaibhav very dedicated and collaborative.
+                      I have worked with Arpit in a construct week project and I
+                      found Arpit very hard working and collaborative.
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
@@ -151,8 +155,8 @@ export default function Testimonial(props) {
                     </ul>
                   </div>
                   <div className="client-info">
-                    <img src={kamesh} alt="no internet connection"></img>
-                    <h5>Kamesh Hedau</h5>
+                    <img src={bhanu} alt="no internet connection"></img>
+                    <h5>Bhanu Solanki</h5>
                     <p>Masai Trainee</p>
                   </div>
                 </div>
@@ -162,7 +166,8 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                       worked with Vaibhav on a contruct week project he is collaborative and I can definitely endorse his skills
+                      worked with Arpit on a contruct week project he is
+                      collaborative and I can definitely endorse his skills
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
@@ -185,7 +190,7 @@ export default function Testimonial(props) {
                   </div>
                   <div className="client-info">
                     <img src={raj} alt="no internet connection"></img>
-                    <h5>Raj Savsani</h5>
+                    <h5>Vinay Makade</h5>
                     <p>Masai Trainee</p>
                   </div>
                 </div>

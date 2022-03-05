@@ -79,6 +79,25 @@ const Resume = (props) => {
 
   const projectsDetails = [
     {
+      title: "Clone of Meesho",
+      duration: { fromDate: "2021", toDate: "2021" },
+      description:
+        "An Ecommerce website for selling fashion and lifestyle products.",
+      subHeading:
+        "Technologies Used: React Js, Mongo DB, Express Js, Node JS, Bootstrap.",
+      pUrl: "https://aadityaneve.github.io/Clone-Pluralsight/pages/index.html",
+      gUrl: "https://github.com/aadityaneve/Clone-Pluralsight/tree/vaibhav",
+    },
+    {
+      title: "Clone Of HealthKart",
+      duration: { fromDate: "2021", toDate: "2022" },
+      description: "A Todo website developed using React, Redux",
+      subHeading:
+        " HealthKart- A great place for people serious about health and fitness.",
+      pUrl: "https://vk-todo.herokuapp.com/",
+      gUrl: "github",
+    },
+    {
       title: "Clone of JioMart",
       duration: { fromDate: "2021", toDate: "2021" },
       description:
@@ -86,24 +105,6 @@ const Resume = (props) => {
       subHeading: "Technologies Used:  Html, Css, JavaScript.",
       pUrl: "https://vaibhavkothiyal.github.io/jiomartClone.github.io/html/Index.html",
       gUrl: "https://github.com/vaibhavkothiyal/jiomartClone.github.io",
-    },
-    {
-      title: "Clone of PluralSight",
-      duration: { fromDate: "2021", toDate: "2021" },
-      description:
-        "An American online education marketplace for software developers.",
-      subHeading:
-        "Technologies Used: JavaScript, Html, Mongo DB, Epress Js, Node JS.",
-      pUrl: "https://aadityaneve.github.io/Clone-Pluralsight/pages/index.html",
-      gUrl: "https://github.com/aadityaneve/Clone-Pluralsight/tree/vaibhav",
-    },
-    {
-      title: "Todo App",
-      duration: { fromDate: "2021", toDate: "2022" },
-      description: "A Todo website developed using React, Redux",
-      subHeading: "Technologies Used: React, Redux, Express",
-      pUrl: "https://vk-todo.herokuapp.com/",
-      gUrl: "github",
     },
   ];
 
